@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	font:40px Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+	background-color: #0A72FF;
+	display: block;
+	height: 1000px;
+	width:100%;
+}
+
+#one {
+	background-image:url(../images/Background.jpg);
+}
+
+#onelogo {
+	width:30%;
+	height:200px;
+	margin-left:35%;
+	padding-top:700px;
+	background-image:url(../images/Logo.png);
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#two {
+	background-image:url(../images/Background2.jpg);
+}
+
+#three {
+	background-color:#F8FF06;
+	color:#FFBFC0;
+}
+
+#four {
+	background-color:#08E7EB;
+	color:#FFBFC0;
+}
+
+nav {
+	position:fixed;
+	padding:5px;
+	margin-left:33%;
+	word-spacing:30px;
+	height:80px;
+	width:100%;
+}
+
+nav a {
+	display:inline;
+	font-size:24px;
+	color:#FFF;
+	text-align:center;
+	font-family:Amethyst;
+}
+
+nav a:hover {
+	color:#7668F0;
+}
+
+.pic {
+  border:5px solid #fff;  
+  float:left;
+  height:300px;
+  width:25%;
+  margin:20px;
+  overflow:hidden;
+  margin-top:60px;
+  margin-left:100px;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  -webkit-box-shadow:5px 5px 5px #111;
+          box-shadow:5px 5px 5px #111;  
+}
+
+.pic2 {
+  border:5px solid #fff;  
+  float:left;
+  height:250px;
+  width:25%;
+  margin:20px;
+  overflow:hidden;
+  margin-top:20px;
+  margin-left:100px;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  -webkit-box-shadow:5px 5px 5px #111;
+          box-shadow:5px 5px 5px #111;  
+}
+
+.sidepan img {
+  margin-left: 0px;
+  -webkit-transition: margin 5s ease;
+     -moz-transition: margin 5s ease;
+       -o-transition: margin 5s ease;
+      -ms-transition: margin 5s ease;
+          transition: margin 5s ease;
+}
+ 
+.sidepan img:hover {
+  margin-left: -1550px;
+}

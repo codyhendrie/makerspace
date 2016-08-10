@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Makerspace</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#one">Home</a> 
+<a href="#two">Gallery</a> 
+<a href="#three">About</a> 
+<a href="#four">Contact</a> 
+</nav>
+
+<section id="one">
+  <div id="onelogo"></div>
+</section>
+
+<section id="two">
+<div class="pic">
+	<img src="images/IMG_0201.JPG" width="100%" height="300px">
+</div>
+<div class="sidepan pic">
+	<img src="images/13340359_632310200236_1738327599_o.jpg">
+</div>
+<div class="pic">
+	<img src="images/IMG_0218.JPG" width="100%" height="300px">
+</div>
+<div class="pic2">
+	<img src="images/IMG_0232.JPG" width="100%" height="250px"> 
+</div>
+<div class="pic2">
+    <img src="images/IMG_0212.JPG" width="100%" height="250px"> 
+</div>
+<div class="pic2">
+    <img src="images/IMG_0204.JPG" width="100%" height="250px"> 
+</div>
+<div class="pic2">
+    <img src="images/IMG_0214.JPG" width="100%" height="250px"> 
+</div>
+<div class="pic2">
+    <img src="images/IMG_0217.JPG" width="100%" height="250px"> 
+</div>
+<div class="pic2">
+    <img src="images/IMG_0207d.JPG" width="100%" height="250px"> 
+</div>
+</section>
+
+<section id="three">
+
+</section>
+
+<section id="four">
+
+</section>
+
+
+</body>
+</html>
