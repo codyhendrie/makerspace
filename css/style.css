@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
+body, html {
 	margin:0;
-	font:40px Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	height:100%;
+	font-family: 'Poiret One', cursive;
 }
 
 * {
@@ -14,21 +15,22 @@ body {
 }
 
 section {
-	background-color: #0A72FF;
-	display: block;
-	height: 1000px;
+	background-color:#0A72FF;
+	display:block;
+	height:100%;
 	width:100%;
 }
 
 #one {
 	background-image:url(../images/Background.jpg);
+	background-size:cover;
 }
 
 #onelogo {
 	width:30%;
-	height:200px;
+	height:20%;
 	margin-left:35%;
-	padding-top:700px;
+	padding-top:50%;
 	background-image:url(../images/Logo.png);
 	background-size:contain;
 	background-position:center;
@@ -37,48 +39,95 @@ section {
 
 #two {
 	background-image:url(../images/Background2.jpg);
+	background-size:cover;
 }
 
 #three {
-	background-color:#F8FF06;
-	color:#FFBFC0;
+	background-image:url(../images/IMG_0301.jpg);
+	background-size:cover;
+}
+
+#threebox {
+  border:3px solid #000;
+  border-radius:20px 20px 20px 20px;
+  background-color:#FFF; 
+  float:left;
+  height:20%;
+  width:60%;
+  margin:1%;
+  margin-top:3%;
+  overflow:hidden;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.threebox {
+  border:3px solid #000;
+  border-radius:20px 20px 20px 20px;
+  background-color:#FFF; 
+  float:left;
+  height:20%;
+  width:60%;
+  margin:1.4%;
+  overflow:hidden;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.threeboxright {
+  border:3px solid #000;
+  border-radius:20px 20px 20px 20px;
+  background-color:#FFF; 
+  float:right;
+  height:20%;
+  width:60%;
+  margin:1.4%;
+  overflow:hidden;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
 }
 
 #four {
-	background-color:#08E7EB;
-	color:#FFBFC0;
+	background-image:url(../images/IMG_0198.jpg);
+	background-size:cover;
 }
 
 nav {
 	position:fixed;
 	padding:5px;
-	margin-left:33%;
+	margin-left:35%;
 	word-spacing:30px;
-	height:80px;
-	width:100%;
+	background-color:#ACACAC;
+	opacity:.8;
+	border-radius:20px 20px 20px 20px;
 }
 
 nav a {
 	display:inline;
-	font-size:24px;
+	font-size:250%;
 	color:#FFF;
 	text-align:center;
-	font-family:Amethyst;
+	font-family: 'Poiret One', cursive;
+	width:100%;
 }
 
 nav a:hover {
-	color:#7668F0;
+	color:#0263F9;
 }
 
 .pic {
   border:5px solid #fff;  
   float:left;
-  height:300px;
+  height:25%;
   width:25%;
-  margin:20px;
+  margin:1%;
   overflow:hidden;
-  margin-top:60px;
-  margin-left:100px;
+  margin-top:6.5%;
+  margin-left:5.2%;
+  border-radius:20px 20px 20px 20px;
   background-position:center;
   background-size:contain;
   background-repeat:no-repeat;
@@ -89,12 +138,13 @@ nav a:hover {
 .pic2 {
   border:5px solid #fff;  
   float:left;
-  height:250px;
+  height:20%;
   width:25%;
-  margin:20px;
+  margin:1%;
   overflow:hidden;
-  margin-top:20px;
-  margin-left:100px;
+  margin-top:3%;
+  margin-left:5.2%;
+  border-radius:20px 20px 20px 20px;
   background-position:center;
   background-size:contain;
   background-repeat:no-repeat;
@@ -112,5 +162,36 @@ nav a:hover {
 }
  
 .sidepan img:hover {
-  margin-left: -1550px;
+  margin-left: -1200px;
 }
+
+h1 {
+	color:#000;
+	margin-left:.5%;
+	line-height:300%;
+}
+
+h2 {
+	color:#1638FD;
+	margin-left:.5%;
+}
+
+p2 {
+	text-decoration:underline;
+	margin-left:.5%;
+}
+
+p {
+	margin-left:.5%;
+	font-size:140%;
+	text-align:center;
+	overflow:auto;
+}
+
+p3 {
+	margin-left:.5%;
+	font-size:140%;
+	text-align:center;
+	overflow:auto;
+}
+
