@@ -7,13 +7,6 @@ body, html {
 	font-family: 'Poiret One', cursive;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 section {
 	background-color:#0A72FF;
 	display:block;
@@ -62,47 +55,28 @@ section {
   background-repeat:no-repeat;
 }
 
-.threebox {
-  border:3px solid #000;
-  border-radius:20px 20px 20px 20px;
-  background-color:#FFF; 
-  float:left;
-  height:20%;
-  width:60%;
-  margin:1.4%;
-  overflow:hidden;
-  background-position:center;
-  background-size:contain;
-  background-repeat:no-repeat;
-}
-
-.threeboxright {
-  border:3px solid #000;
-  border-radius:20px 20px 20px 20px;
-  background-color:#FFF; 
-  float:right;
-  height:20%;
-  width:60%;
-  margin:1.4%;
-  overflow:hidden;
-  background-position:center;
-  background-size:contain;
-  background-repeat:no-repeat;
-}
-
 #four {
 	background-image:url(../images/IMG_0198.jpg);
 	background-size:cover;
 }
 
+/* CLASSES CLASSES CLASSES */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 nav {
 	position:fixed;
-	padding:5px;
-	margin-left:35%;
+	padding:.5%;
+	margin-left:34.5%;
 	word-spacing:30px;
 	background-color:#ACACAC;
 	opacity:.8;
-	border-radius:20px 20px 20px 20px;
+	border-radius:0px 0px 10px 10px;
 }
 
 nav a {
@@ -163,6 +137,34 @@ nav a:hover {
  
 .sidepan img:hover {
   margin-left: -1200px;
+}
+
+.threebox {
+  border:3px solid #000;
+  border-radius:20px 20px 20px 20px;
+  background-color:#FFF; 
+  float:left;
+  height:20%;
+  width:60%;
+  margin:1.4%;
+  overflow:hidden;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.threeboxright {
+  border:3px solid #000;
+  border-radius:20px 20px 20px 20px;
+  background-color:#FFF; 
+  float:right;
+  height:20%;
+  width:60%;
+  margin:1.4%;
+  overflow:hidden;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
 }
 
 h1 {
